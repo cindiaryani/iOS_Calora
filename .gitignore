@@ -1,0 +1,64 @@
+# ── Secrets & credentials (NEVER commit these) ─────────────────────────────
+GoogleService-Info.plist
+*.env
+.env.*
+Secrets.swift
+secrets.json
+
+# ── Xcode ───────────────────────────────────────────────────────────────────
+# User-specific Xcode data
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode Previews
+*.xcpreviews
+
+# Swift Package Manager resolved file (optional: remove this line if you want
+# reproducible builds by locking dependency versions in CI)
+# Cindi_FitnessCoach_L25020008.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# ── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Python (dev scripts) ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+*.so
+
+# ── Claude Code / IDE ────────────────────────────────────────────────────────
+.claude/
+.agents/
+.vscode/
+skills-lock.json
+
+# ── Security reports (internal dev artifacts) ────────────────────────────────
+docs/security/
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+*.orig
+*.log
+Thumbs.db
